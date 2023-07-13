@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lobster&family=Poppins:wght@400;500;600&family=Roboto&family=Rubik+Maze&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -56,6 +56,22 @@ html {
     font-family: 'Rubik Maze', cursive;
     font-size: 18rem;
 }
+button{
+  border-radius: 10px;
+  position: absolute;
+  bottom: 4px;
+  right: 0px;
+  border-color: deeppink;
+
+}
+a{
+   text-decoration: none;
+   font-family: sans-serif;
+   color: aliceblue;
+   background-color: crimson;
+
+}
+
 @keyframes hbeat {
     0% {
       transform: rotate(45deg) scale(1);
@@ -113,3 +129,4 @@ html {
       font-size: 18vw;
     }
   }
+  /* created with love by aniket */
